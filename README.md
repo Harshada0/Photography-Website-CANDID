@@ -1,2 +1,2 @@
 # Photography-Website-CANDID
-This website is all about photography...
+Compatible for the photographers to showcase talent as well as get orders.
