@@ -1,0 +1,617 @@
+<html lang="en">
+	<head>
+		<title>Home</title>
+		<meta charset="utf-8">
+		<meta name="format-detection" content="telephone=no">
+		<link rel="icon" href="images/favicon.ico">
+		<link rel="shortcut icon" href="images/favicon.ico">
+		<link rel="stylesheet" href="css/stuck.css">
+		<link rel="stylesheet" href="css/owl.carousel.css">
+		<link rel="stylesheet" href="css/form.css">
+		<link rel="stylesheet" href="css/touchTouch.css">
+		<link rel="stylesheet" href="css/camera.css">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery-migrate-1.1.1.js"></script>
+		<script src="js/script.js"></script>
+		<script src="js/superfish.js"></script>
+		<script src="js/jquery.equalheights.js"></script>
+		<script src="js/jquery.mobilemenu.js"></script>
+		<script src="js/jquery.easing.1.3.js"></script>
+		<script src="js/tmStickUp.js"></script>
+		<script src="js/jquery.ui.totop.js"></script>
+		<script src="js/touchTouch.jquery.js"></script>
+		<script src="js/owl.carousel.js"></script>
+		<script src="js/sForm.js"></script>
+		<script src="js/camera.js"></script>
+		<!--[if (gt IE 9)|!(IE)]><!-->
+		<script src="js/jquery.mobile.customized.min.js"></script>
+		<!--<![endif]-->
+		<script>
+		$(document).ready(function(){
+			jQuery('#camera_wrap').camera({
+				loader: false,
+				pagination: false ,
+				minHeight: '200',
+				thumbnails: false,
+				height: '39,0625%',
+				caption: true,
+				navigation: true,
+				fx: 'mosaic'
+			});
+			var owl = $("#owl");
+			owl.owlCarousel({
+				items : 7, //10 items above 1000px browser width
+				itemsDesktop : [995,5], //5 items between 1000px and 901px
+				itemsDesktopSmall : [767, 3], // betweem 900px and 601px
+				itemsTablet: [700, 3], //2 items between 600 and 0
+				itemsMobile : [479, 2], // itemsMobile disabled - inherit from itemsTablet option
+				navigation : true,
+			});
+			$().UItoTop({ easingType: 'easeOutQuart' });
+			$('#stuck_container').tmStickUp({});
+			$('.gallery a.gal_item').touchTouch();
+		});
+		</script>
+		<!--[if lt IE 8]>
+		<div style=' clear: both; text-align:center; position: relative;'>
+			<a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+				<img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+			</a>
+		</div>
+		<![endif]-->
+		<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+		<link rel="stylesheet" media="screen" href="css/ie.css">
+		<![endif]-->
+	</head>
+	<body class="page1" id="top">
+<!--==============================header=================================-->
+		<header>
+			<div id="stuck_container">
+				<div class="container">
+					<div class="row">
+						<div class="grid_12">
+							<h1>
+								<a href="index.html">
+									<img src="images/logo2.png" alt="Your Happy Family">
+								</a>
+							</h1>
+							<div class="menu_block">
+								<nav class="horizontal-nav full-width horizontalNav-notprocessed">
+									<ul class="sf-menu">
+										<li class="current"><a href="index.html">About</a></li>
+										<li><a href="index-1.html">Portfolio</a></li>
+										<li><a href="index-4.html">Contacts</a></li>
+									</ul>
+								</nav>
+								<div class="clear"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="main">
+			<div class="slider_wrapper">
+				<div id="camera_wrap" class="">
+					<div data-src="images/slide.jpg">
+						<div class="caption fadeIn">
+							<div class="title">About Me</div>
+							<p> For me, photography is really just a by-product of spending so much time in nature. I think that spending time in the wilderness is just about the best thing one can do.
+							</p>
+
+							<p>	 I find a deep spirituality in nature and I hope for it to become evident in my photography.I have been doing photography since 5 years . I put a lot of effort into these images and I hope that my passion for traveling and nature can translate into something special for the viewer
+								</p>
+							 
+							
+							
+						</div>
+					</div>
+					<div data-src="images/slide1.jpg">
+						<div class="caption fadeIn">
+							<div class="title">Photography is </div>
+							<p>
+							 I focus on prompts for natural expressions, not poses. 
+
+                                           "Say the funniest word you know."</p>
+							<p>Capturing an experience, not just another photograph.
+                                    
+                                     Like getting together with old friends, we'll have plenty of laughs along the way.</p>
+							
+						<p>“Only photography has been able to divide human life into a series of moments, each of them has the value of a complete existence.”</p>
+							
+						</div>
+					</div>
+					
+					</div>
+				</div>
+			</div>
+<!--=====================Content======================-->
+			<div class="block1">
+				<div class="container">
+					<div class="row">
+						<div class="grid_12">
+							<div class="rel">
+								<p>
+								Hi! i am Harshu wadekar. Photography is a passion of mine. Let me use my talent & professionalism to capture the precious moments of your life.
+								</p>
+								<a href="index-4.html" class="btn bt__1">Hire Me</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<section class="content">
+					<div class="row">
+						<div class="grid_12">
+							<h2>Portfolio</h2>
+							<div class="gallery">
+								<div class="row">
+									<div class="grid_4">
+										<a href="images/big1.jpg" class="gal_item">
+											<img src="images/page1_img1.jpg" alt="">
+											<div class="gal_caption">People</div>
+											<span class="gal_magnify"></span>
+										</a>
+									</div>
+									<div class="grid_4">
+										<a href="images/big2.jpg" class="gal_item">
+											<img src="images/page1_img2.jpg" alt="">
+											<div class="gal_caption">Fashion</div>
+											<span class="gal_magnify"></span>
+										</a>
+									</div>
+									<div class="grid_4">
+										<a href="images/big3.jpg" class="gal_item">
+											<img src="images/page1_img3.jpg" alt="">
+											<div class="gal_caption">Wedding</div>
+											<span class="gal_magnify"></span>
+										</a>
+									</div>
+									<div class="grid_4">
+										<a href="images/big4.jpg" class="gal_item">
+											<img src="images/page1_img4.jpg" alt="">
+											<div class="gal_caption">Interior</div>
+											<span class="gal_magnify"></span>
+										</a>
+									</div>
+									<div class="grid_4">
+										<a href="images/big5.jpg" class="gal_item">
+											<img src="images/page1_img5.jpg" alt="">
+											<div class="gal_caption">Animals</div>
+											<span class="gal_magnify"></span>
+										</a>
+									</div>
+									<div class="grid_4">
+										<a href="images/big6.jpg" class="gal_item">
+											<img src="images/page1_img6.jpg" alt="">
+											<div class="gal_caption">Nature</div>
+											<span class="gal_magnify"></span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="clear"></div>
+						<div class="grid_4">
+							<h3 class="mb__0">Equipment</h3>
+							<div class="block2">
+								<div class="block2_title color1">Camera</div>
+									<ul class="list">
+									<li><a href="#">External Flash </a></li>
+									<li><a href="#">Camera Tripod </a></li>
+									<li><a href="#">Remote Shutter Release</a></li>
+									<li><a href="#">Different Prime Lens</a></li>
+								</ul>
+							</div>
+							<div class="block2">
+								<div class="block2_title color1">Lighting</div>
+								<ul class="list">
+									<li><a href="#">Elinchrom D-Lite RX 4/4 Softbox To Go Kit </a></li>
+									<li><a href="#">Broncolor Siros L 800Ws 2-Light Outdoor Kit 2 </a></li>
+									<li><a href="#">Lowel TotaLED Daylight LED 1-Light Kit </a></li>
+								</ul>
+							</div>
+						</div>
+						
+						<div class="grid_4">
+							<h3>Achivements</h3>
+							<ul class="list1">
+								<li>
+									<div class="list_count">1</div>
+									<div class="extra_wrapper">
+										<div class="list1_title color2"><a href="#">“)WPPIC & CPP Certified Professional Photographer In DFW
+										
+									</div>
+									<br></br>
+								</li>
+								<li>
+									<div class="list_count">2</div>
+									<div class="extra_wrapper">
+										<div class="list1_title color2"><a href="#">“Professional Photography Accolades & Distinctions
+										
+									</div>
+									<br></br>
+								</li>
+								<li>
+									<div class="list_count">3</div>
+									<div class="extra_wrapper">
+										<div class="list1_title color2"><a href="#">“Worked with 20+ magazines and 35+ brands like nike , zara 
+										
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="clear"></div>
+						<div class="grid_12">
+							<h3 class="head1">Multimedia</h3>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+				<div id="owl">
+					<div class="item"><img src="images/car_img1.jpg" alt=""></div>
+					<div class="item"><img src="images/car_img2.jpg" alt=""></div>
+					<div class="item"><img src="images/car_img3.jpg" alt=""></div>
+					<div class="item"><img src="images/car_img4.jpg" alt=""></div>
+					<div class="item"><img src="images/car_img5.jpg" alt=""></div>
+					<div class="item"><img src="images/car_img6.jpg" alt=""></div>
+					<div class="item"><img src="images/car_img7.jpg" alt=""></div>
+					<div class="item"><img src="images/car_img1.jpg" alt=""></div>
+					<div class="item"><img src="images/car_img2.jpg" alt=""></div>
+					<div class="item"><img src="images/car_img3.jpg" alt=""></div>
+					<div class="item"><img src="images/car_img4.jpg" alt=""></div>
+					<div class="item"><img src="images/car_img5.jpg" alt=""></div>
+					<div class="item"><img src="images/car_img6.jpg" alt=""></div>
+					<div class="item"><img src="images/car_img7.jpg" alt=""></div>
+				</div>
+			</section>
+
+			
+<!--==============================footer=================================-->
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="grid_12">
+						<div class="footer_socials">
+							<a href="#" class="fa fa-twitter"></a>
+							<a href="#" class="fa fa-facebook"></a>
+							
+						</div>
+						<div class="copy">
+							<span class="brand">Candid</span> &copy; <span id="copyright-year"></span> | <a href="#">Privacy Policy</a>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
+
+
+
+PAGE 2
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Portfolio</title>
+		<meta charset="utf-8">
+		<meta name="format-detection" content="telephone=no">
+		<link rel="icon" href="images/favicon.ico">
+		<link rel="shortcut icon" href="images/favicon.ico">
+		<link rel="stylesheet" href="css/stuck.css">
+		<link rel="stylesheet" href="css/form.css">
+		<link rel="stylesheet" href="css/touchTouch.css">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery-migrate-1.1.1.js"></script>
+		<script src="js/script.js"></script>
+		<script src="js/superfish.js"></script>
+		<script src="js/jquery.equalheights.js"></script>
+		<script src="js/jquery.mobilemenu.js"></script>
+		<script src="js/jquery.easing.1.3.js"></script>
+		<script src="js/tmStickUp.js"></script>
+		<script src="js/jquery.ui.totop.js"></script>
+		<script src="js/touchTouch.jquery.js"></script>
+		<script src="js/sForm.js"></script>
+		<script>
+		$(document).ready(function(){
+			$().UItoTop({ easingType: 'easeOutQuart' });
+			$('#stuck_container').tmStickUp({});
+			$('.gallery a.gal_item').touchTouch();
+		});
+		</script>
+		<!--[if lt IE 8]>
+		<div style=' clear: both; text-align:center; position: relative;'>
+			<a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+				<img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+			</a>
+		</div>
+		<![endif]-->
+		<!--[if lt IE 9]>
+			<script src="js/html5shiv.js"></script>
+			<link rel="stylesheet" media="screen" href="css/ie.css">
+		<![endif]-->
+	</head>
+	<body class="" id="top">
+<!--==============================header=================================-->
+		<header>
+			<div id="stuck_container">
+				<div class="container">
+					<div class="row">
+						<div class="grid_12">
+							<h1>
+								<a href="index.html">
+									<img src="images/logo2.png" alt="Your Happy Family">
+								</a>
+							</h1>
+							<div class="menu_block ">
+								<nav class="horizontal-nav full-width horizontalNav-notprocessed">
+									<ul class="sf-menu">
+										<li><a href="index.html">About</a></li>
+										<li class="current"><a href="index-1.html">Portfolio</a></li>
+										<li><a href="index-4.html">Contacts</a></li>
+									</ul>
+								</nav>
+								<div class="clear"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="main">
+<!--=====================Content======================-->
+			<section class="content cont_pad1">
+				
+					<div class="gallery gall__1">
+						<div class="row">
+							<div class="grid_4">
+								<h3>People</h3>
+							</div>
+							<div class="clear"></div>
+							
+							<div class="grid_4">
+								<a href="images/full1.jpg" class="gal_item">
+									<img src="images/page2_img2.jpg" alt="">
+									<div class="gal_caption">
+										<time datetime="2020-01-01">20 Jan 2020</time>
+									</div>
+									<span class="gal_magnify"></span>
+								</a>
+							</div>
+							
+							<div class="grid_4">
+								<br>
+									
+								</br>
+
+								<br></br>
+								<h3>Animals</h3>
+							</div>
+							<div class="clear"></div>
+							<div class="grid_4">
+								<a href="images/full2.jpg" class="gal_item">
+								<img src="images/page2_img4.jpg" alt="">
+								<div class="gal_caption">
+									<time datetime="2020-01-01">17 Feb 2020</time>
+								</div>
+								<span class="gal_magnify"></span>
+								</a>
+							</div>
+							
+							<div class="grid_4">
+								<a href="images/full3.jpg" class="gal_item">
+									<img src="images/page2_img6.jpg" alt="">
+									<div class="gal_caption">
+										<time datetime="2020-01-01">24 Jan 2020</time>
+									</div>
+									<span class="gal_magnify"></span>
+								</a>
+							</div>
+							<br></br>
+							<div class="grid_4">
+								<h3>Nature</h3>
+							</div>
+							<div class="clear"></div>
+							<div class="grid_4">
+								<a href="images/full4.jpg" class="gal_item">
+									<img src="images/page2_img7.jpg" alt="">
+									<div class="gal_caption">
+										<time datetime="2020-01-01">01 Jan 2020</time>
+									</div>
+									<span class="gal_magnify"></span>
+								</a>
+							</div>
+							<div class="grid_4">
+								<a href="images/full5.jpg" class="gal_item">
+									<img src="images/page2_img8.jpg" alt="">
+									<div class="gal_caption">
+										<time datetime="2020-01-01">10 Jan 2020</time>
+									</div>
+									<span class="gal_magnify"></span>
+								</a>
+							</div>
+							<div class="grid_4">
+								<a href="images/full6.jpg" class="gal_item">
+									<img src="images/page2_img9.jpg" alt="">
+									<div class="gal_caption">
+										<time datetime="2020-01-01">25 Jan 2020</time>
+									</div>
+									<span class="gal_magnify"></span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+<!--==============================footer=================================-->
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="grid_12">
+						<div class="footer_socials">
+							<a href="#" class="fa fa-twitter"></a>
+							<a href="#" class="fa fa-facebook"></a>
+							
+						</div>
+						<div class="copy">
+							<span class="brand">Candid</span> &copy; <span id="copyright-year"></span> | <a href="#">Privacy Policy</a>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
+
+
+
+
+PAGE 3
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Contacts</title>
+		<meta charset="utf-8">
+		<meta name="format-detection" content="telephone=no">
+		<link rel="icon" href="images/favicon.ico">
+		<link rel="shortcut icon" href="images/favicon.ico">
+		<link rel="stylesheet" href="css/stuck.css">
+		<link rel="stylesheet" href="css/form.css">
+		<link rel="stylesheet" href="css/style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery-migrate-1.1.1.js"></script>
+		<script src="js/script.js"></script>
+		<script src="js/superfish.js"></script>
+		<script src="js/jquery.equalheights.js"></script>
+		<script src="js/jquery.mobilemenu.js"></script>
+		<script src="js/jquery.easing.1.3.js"></script>
+		<script src="js/tmStickUp.js"></script>
+		<script src="js/jquery.ui.totop.js"></script>
+		<script src="js/TMForm.js"></script>
+		<script src="js/sForm.js"></script>
+		<script>
+			$(document).ready(function(){
+			$().UItoTop({ easingType: 'easeOutQuart' });
+			$('#stuck_container').tmStickUp({});
+			.w3-button {width:150px;}
+		});
+		</script>
+		<!--[if lt IE 8]>
+		<div style=' clear: both; text-align:center; position: relative;'>
+			<a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+				<img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+			</a>
+		</div>
+		<![endif]-->
+		<!--[if lt IE 9]>
+			<script src="js/html5shiv.js"></script>
+			<link rel="stylesheet" media="screen" href="css/ie.css">
+		<![endif]-->
+	</head>
+	<body class="" id="top">
+<!--==============================header=================================-->
+		<header>
+			<div id="stuck_container">
+				<div class="container">
+					<div class="row">
+						<div class="grid_12">
+							<h1>
+								<a href="index.html">
+									<img src="images/logo2.png" alt="Your Happy Family">
+								</a>
+							</h1>
+							<div class="menu_block ">
+								<nav class="horizontal-nav full-width horizontalNav-notprocessed">
+									<ul class="sf-menu">
+										<li><a href="index.html">About</a></li>
+										<li><a href="index-1.html">Portfolio</a></li>
+										
+										<li class="current"><a href="index-4.html">Contacts</a></li>
+									</ul>
+								</nav>
+								<div class="clear"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="main">
+<!--=====================Content======================-->
+			<section class="content">
+				<div class="container"><div class="ic"> Jan 05, 2020!</div>
+					<div class="row">
+						<div class="grid_12">
+							
+						</div>
+						<div class="clear"></div>
+						<div class="grid_5">
+							<h3>Contact Info</h3>
+							<p>24/7 support is on for all <span class="color1">
+							Greenwood Society <br>
+							Near Oxygen Valley Society,<br>
+							Opposite HP Petrolpump.Pune<br>
+							Phone: +91 9123456789<br>
+							
+							E-mail: <a href="#">candid.foru@gmail.com</a>
+						</div>
+						<div class="grid_6 preffix_1">
+							<h3>Contact Form</h3>
+							<form action="insert.php" method="post">
+							<form id="form">
+								<div class="success_wrapper">
+									<div class="success-message">Contact form submitted</div>
+								</div>
+								<label class="name">
+									<input style="margin:20px padding :10px;" type="text" name="name" placeholder="Name" /><br>	
+								</label>
+								<label class="email">
+								<input style="margin:20px  padding :10px;" type="text" name="email" placeholder="Email" /><br>
+								</label>
+								<label class="phoneno">
+								<input style="margin:20px  padding :10px;" type="text" name="phoneno" placeholder="Mobile no" /><br>
+								</label>
+								<label class="messages"> 
+                                <textarea rows="5" cols="50" name="messages"
+                                  id="Messages" placeholder="Message"></textarea> </label>
+								
+							    <div>
+									<div class="w3-container">
+										<p><button class="w3-button w3-grey">Submit</button></p>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			
+<!--==============================footer=================================-->
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="grid_12">
+						<div class="footer_socials">
+							<a href="#" class="fa fa-twitter"></a>
+							<a href="#" class="fa fa-facebook"></a>
+							
+						</div>
+						<div class="copy">
+							<span class="brand">Candid</span> &copy; <span id="copyright-year"></span> | <a href="#">Privacy Policy</a>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
